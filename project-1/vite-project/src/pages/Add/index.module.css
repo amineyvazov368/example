@@ -1,0 +1,9 @@
+.from{
+    width: 50%;
+    padding: 15px;
+    margin: 10px auto;
+    border: 1px solid red;
+}
+input{
+    width: 96%;
+}

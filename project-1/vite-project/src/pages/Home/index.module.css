@@ -1,0 +1,87 @@
+.title{  
+background-image: url(https://preview.colorlib.com/theme/coloshop/images/slider_1.jpg);
+padding: 200px;
+background-position: center;
+background-size: cover;
+}
+
+.titleText h1{
+    font-size: 65px;
+}
+.titleText button{
+    padding: 4px 15px ;
+    background-color: rgb(245, 59, 59);
+    border: none ;
+    color: aliceblue;
+}
+.cards{
+    padding: 70px
+}
+.card{
+    padding: 90px;
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.cardText{
+    margin: auto;
+    border: 1px solid white;
+    text-align: center;
+    width: 55%;
+    background-color: white;
+
+}
+.card2{
+    padding: 90px;
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card3{
+    padding: 90px;
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/banner_3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.products{
+    padding: 50px;
+
+}
+.productsText{
+    width: 35%;
+    margin: 15px auto;
+    text-align: center;
+}
+.rows button{
+    padding: 3px 19px;
+}
+.end{
+    padding: 100px;
+}
+
+.cardd{
+    border: 1px solid red;
+    padding: 35px;
+    border: none;
+    border: 1px solid black;
+}
+.endCard{
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg);
+   
+    padding: 15px;
+}
+.endCard1{
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/blog_2.jpg);
+   
+    padding: 15px;
+}
+.endCard2{
+    background-image: url(https://preview.colorlib.com/theme/coloshop/images/blog_3.jpg);
+   
+    padding: 15px;
+}
+.endInfo{
+    padding: 15px;
+ 
+    border: 1px solid rgb(255, 255, 255);
+}

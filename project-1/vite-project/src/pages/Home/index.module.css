@@ -63,7 +63,9 @@ background-size: cover;
     border: 1px solid red;
     padding: 35px;
     border: none;
+  
     border: 1px solid black;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
 }
 .endCard{
     background-image: url(https://preview.colorlib.com/theme/coloshop/images/blog_1.jpg);

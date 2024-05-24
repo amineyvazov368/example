@@ -3,7 +3,7 @@ import { useFormik } from 'formik';
 import Style from "./index.module.css"
 import {Helmet} from "react-helmet";
 import * as Yup from 'yup';
-import {usePostModelMutation} from "../../services/ProductQuerySlice"
+import { usePostModelMutation } from "../../services/ProductQuerySlice"
 const index = () => {
 
      const [postModel]= usePostModelMutation()
@@ -18,7 +18,7 @@ const index = () => {
             .max(15, 'Must be 15 characters or less')
             .required('Required'),
             img: Yup.string()
-            .max(20, 'Must be 20 characters or less')
+            
             .required('Required'),
             discribtion: Yup.string().required('Required'),
         }),
@@ -59,9 +59,9 @@ const index = () => {
        <input
          id="img"
          name="img"
-         type="text"
+         type="url"
          onChange={formik.handleChange}
-         onBlur={formik.handleBlur}
+
          value={formik.values.img}
        />
        {formik.touched.lastName && formik.errors.lastName ? (

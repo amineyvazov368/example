@@ -95,7 +95,7 @@ const index = () => {
               <div className={Style.cardd}>
                 <div className={Style.cardImg}>
                   <img
-                    src="https://preview.colorlib.com/theme/coloshop/images/product_1.png"
+                    src="https://preview.colorlib.com/theme/coloshop/images/product_2.png"
                     alt=""
                   />
                 </div>
@@ -110,7 +110,7 @@ const index = () => {
               <div className={Style.cardd}>
                 <div className={Style.cardImg}>
                   <img
-                    src="https://preview.colorlib.com/theme/coloshop/images/product_1.png"
+                    src="https://preview.colorlib.com/theme/coloshop/images/product_3.png"
                     alt=""
                   />
                 </div>
@@ -125,7 +125,7 @@ const index = () => {
               <div className={Style.cardd}>
                 <div className={Style.cardImg}>
                   <img
-                    src="https://preview.colorlib.com/theme/coloshop/images/product_1.png"
+                    src="https://preview.colorlib.com/theme/coloshop/images/product_4.png"
                     alt=""
                   />
                 </div>

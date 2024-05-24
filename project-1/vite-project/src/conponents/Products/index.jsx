@@ -10,7 +10,7 @@ const index = () => {
  const {basket ,setBasket}=useState('')
 
     const { data: products, error, isLoading , refetch} = useGetModelQuery()
-    const [deleteOne , {isError, isSuccess}]=useDeleteModelMutation()
+    const [deleteOne, {isError, isSuccess}]=useDeleteModelMutation()
   return (
    <>
   
@@ -20,7 +20,7 @@ const index = () => {
         {products && products.products.map((product)=>{
 
             return(
-                <Col lg={3}>
+                <Col lg={3} sm={12}>
                 <div className={Style.card}>
                     <div className={Style.cardImg}>
                         <img src={product.img} alt="" />
@@ -35,7 +35,8 @@ const index = () => {
                          }
                     }}>delete</button>
                     <button > <Link to={`/detail/${product._id}`}>detail</Link></button>
-                    <button onClick={()=>{const foundItem = basket.find((x) => x.id == product.id);
+                    <button onClick={()=>{
+                      const foundItem =basket.find((x)=>x.id == product.id);
                     if (foundItem) {
                       foundItem.count += 1;
                       setBasket([...basket]);
